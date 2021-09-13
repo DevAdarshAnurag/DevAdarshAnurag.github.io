@@ -11,40 +11,47 @@
     </head>
     <body class="d-flex flex-column min-vh-100">
         <header>
-
-        </header>
-        <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Me</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-              
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#who">Who?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#education">Education</a>
-                    </li> 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#devstory">Dev Story</a>
-                    </li> 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#where">Where?</a>
-                    </li> 
-                </ul>
-            </div>   
-        </nav>
-
-        <div id="who" class="container text-center" style="margin-top:2%">
-            <div class="jumbotron">
-                <h3>Who Am I?</h3>
-                <img src="dp.jpg" class="rounded-circle" alt="Me" style="height:120px; width:120px;">
-                <h3>I'm Nightmare ;-)</h3>
-                <p>Hello there! I am Adarsh Anurag. <br> Software Engineer, Samsung Research & Development Institute, Bangalore.</p>
+            <!--nav bar-->
+            <nav class="navbar navbar-dark fixed-top bg-dark navbar-expand-lg">
+                <a class="navbar-brand" href="#">Adarsh Anurag</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#who">Who?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#devstory">Dev Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#where">Where?</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!--nav bar-->
+            <!-- background -->
+            <div id="who" class="p-5 text-center bg-image" style="background-image: url('sih.jpg');
+            height: 400px; background-position: center;
+            background-repeat: no-repeat; background-size: 100% 100%; margin-top: 58px">
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                    <div class="d-flex justify-content-center align-items-center h-100">
+                        <div class="text-white">
+                            <h1 class="mb-3">Who Am I?</h1>
+                            <img src="dp.jpg" class="rounded-circle" alt="Me" style="height:120px; width:120px;">
+                            <p class="mb-3">Hello there! I am Adarsh Anurag. <br> Software Engineer, Samsung Research & Development Institute, Bangalore.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+            <!-- background -->
+        </header> 
 
         <div id="education" class="container" style="margin-top:5%">
             <h4>Education</h4>
