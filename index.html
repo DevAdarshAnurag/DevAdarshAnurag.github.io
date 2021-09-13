@@ -37,10 +37,13 @@
             </nav>
             <!--nav bar-->
             <!-- background -->
-            <div id="who" class="p-5 text-center bg-image" style="background-image: url('sih.jpg');
-            height: 400px; background-position: center;
-            background-repeat: no-repeat; background-size: 100% 100%; margin-top: 58px">
-                <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div  class="p-5 text-center" style="position: relative;">
+                <div id="who" class="bg-image" style="height: 400px; background-position: center;
+                background-repeat: no-repeat; background-size: 100% 100%; margin-top: 58px
+                position: absolute;">
+                </div>
+                <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);
+                position: absolute; top: 0; left: 0; right:0; bottom:0; margin:auto;">
                     <div class="d-flex justify-content-center align-items-center h-100">
                         <div class="text-white">
                             <h1 class="mb-3">Who Am I?</h1>
@@ -185,6 +188,7 @@
             </div>
         </div>
 
+        <script src="script.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
