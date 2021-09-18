@@ -1,4 +1,4 @@
-var images=new Array('sih.jpg', 'dhoni.jpg', 'nitjsr.JPG');
+var images=new Array('assets/img/sih.jpg', 'assets/img/dhoni.jpg', 'assets/img/nitjsr.JPG');
 var nextimage=0;
 showSlides();
 
