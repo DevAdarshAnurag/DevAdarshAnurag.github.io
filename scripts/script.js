@@ -22,4 +22,4 @@ function showSlogans()
     element.innerHTML = slogans[nextSlogan];
     nextSlogan =  nextSlogan+1;
     setTimeout(showSlogans, 2500);
-}
+}  
