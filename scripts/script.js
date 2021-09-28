@@ -1,5 +1,5 @@
 var images=new Array('assets/img/sih.jpg', 'assets/img/dhoni.jpg', 'assets/img/nitjsr.JPG');
-var slogans=new Array('Mountains are there to be climbed.', 'Small milate jao, large banate jao.', 'A semi-colon missing can ruin your day.', 'while(!(succeed= try()));');
+var slogans=new Array('Mountains are there to be climbed.', 'Small milate jao, large banate jao.', 'A semi-colon missing can ruin your day.', 'while(!(succeed= try()));', 'Stop commenting on others; Start commenting on codes.');
 var nextimage=0;
 var nextSlogan=0;
 //showSlides();
@@ -19,7 +19,7 @@ function showSlogans()
 {
     if(nextSlogan>=slogans.length){nextSlogan=0;}
     var element = document.getElementById("slogan");
-    element.innerHTML = slogans[nextSlogan];
+    element.innerHTML = '<i>\" '+slogans[nextSlogan]+' \"</i>';
     nextSlogan =  nextSlogan+1;
     setTimeout(showSlogans, 2500);
 }  
